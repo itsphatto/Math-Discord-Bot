@@ -7,11 +7,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 import math
-from dotenv import load_dotenv
 
-load_dotenv()
-TOKEN = os.getenv("DISCORD_TOKEN")
-
+#PUT YOUR OWN BOT TOKEN HERE
+TOKEN = 
+#PUT YOUR OWN BOT TOKEN HERE
 
 intents = discord.Intents.default()
 intents.voice_states = True
